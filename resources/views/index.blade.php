@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>UpConstruction Bootstrap Template - Index</title>
+  <title>MIF EXHIBITION</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -54,10 +54,10 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="supported.html">Supported</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#footer">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
@@ -65,7 +65,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="hero">
+  <section id="home" class="hero">
 
     
 
@@ -170,10 +170,10 @@
                 <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>ANKATAN 21</h4>
-                  <p>JUDUL 1</p>
-                  <p>Semester 1</p>
+                  <p>JUDUL 1 <Br> 
+                  Semester 1</p>
                   <a href="assets/img/projects/remodeling-1.jpg" title="Remodeling 1" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -183,10 +183,10 @@
                 <img src="assets/img/projects/construction-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>ANKATAN 21</h4>
-                  <p>JUDUL 2</p>
-                  <p>Semester 2</p>
+                  <p>JUDUL 2 <Br> 
+                  Semester 2</p>
                   <a href="assets/img/projects/construction-1.jpg" title="Construction 1" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -196,10 +196,10 @@
                 <img src="assets/img/projects/repairs-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>ANKATAN 21</h4>
-                  <p>JUDUL 3</p>
-                  <p>Semester 3</p>
+                  <p>JUDUL 3 <Br> 
+                  Semester 3</p>
                   <a href="assets/img/projects/repairs-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -209,10 +209,10 @@
                 <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>ANKATAN 22</h4>
-                  <p>JUDUL 1</p>
-                  <p>Semester 1</p>
+                  <p>JUDUL 1 <Br> 
+                  Semester 1</p>
                   <a href="assets/img/projects/design-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -222,10 +222,10 @@
                 <img src="assets/img/projects/remodeling-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>ANKATAN 22</h4>
-                  <p>JUDUL 2</p>
-                  <p>Semester 2</p>
+                  <p>JUDUL 2 <Br> 
+                  Semester 2</p>
                   <a href="assets/img/projects/remodeling-2.jpg" title="Remodeling 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -235,10 +235,10 @@
                 <img src="assets/img/projects/construction-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>ANKATAN 22</h4>
-                  <p>JUDUL 3</p>
-                  <p>Semester 3</p>
+                  <p>JUDUL 3 <Br> 
+                  Semester 3</p>
                   <a href="assets/img/projects/construction-2.jpg" title="Construction 2" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -248,10 +248,10 @@
                 <img src="assets/img/projects/repairs-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>ANKATAN 23</h4>
-                  <p>JUDUL 1</p>
-                  <p>Semester 1</p>
+                  <p>JUDUL 1 <Br> 
+                  Semester 1</p>
                   <a href="assets/img/projects/repairs-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -261,10 +261,10 @@
                 <img src="assets/img/projects/design-2.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>ANKATAN 23</h4>
-                  <p>JUDUL 2</p>
-                  <p>Semester 2</p>
+                  <p>JUDUL 2 <Br> 
+                  Semester 2</p>
                   <a href="assets/img/projects/design-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -274,10 +274,10 @@
                 <img src="assets/img/projects/remodeling-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>ANKATAN 23</h4>
-                  <p>JUDUL 3</p>
-                  <p>Semester 3</p>
+                  <p>JUDUL 3 <Br> 
+                  Semester 3</p>
                   <a href="assets/img/projects/remodeling-3.jpg" title="Remodeling 3" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -287,10 +287,10 @@
                 <img src="assets/img/projects/construction-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>ANKATAN 24</h4>
-                  <p>JUDUL 1</p>
-                  <p>Semester 1</p>
+                  <p>JUDUL 1 <Br> 
+                  Semester 1</p>
                   <a href="assets/img/projects/construction-3.jpg" title="Construction 3" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -300,10 +300,10 @@
                 <img src="assets/img/projects/repairs-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>ANKATAN 24</h4>
-                  <p>JUDUL 2</p>
-                  <p>Semester 2</p>
+                  <p>JUDUL 2 <Br> 
+                  Semester 2</p>
                   <a href="assets/img/projects/repairs-3.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -313,10 +313,10 @@
                 <img src="assets/img/projects/design-3.jpg" class="img-fluid" alt="">
                 <div class="portfolio-info">
                   <h4>ANKATAN 24</h4>
-                  <p>JUDUL 3</p>
-                  <p>Semester 3</p>
+                  <p>JUDUL 3 <Br> 
+                  Semester 3</p>
                   <a href="assets/img/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="{{ route('project-details') }}" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Projects Item -->
@@ -340,19 +340,19 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>UpConstruction</h3>
+              <h3>MIF EXHIBITION</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                Jl.Mastrip, Krajan Timur Sumbersari, <br>
+                Kec.Sumbersari, Kabupaten Jember, <br>
+                Jawa Timur 68121, Politeknik Negeri Jemebr<br>
+                
               </p>
-              <div class="social-links d-flex mt-3">
+              <!-- <div class="social-links d-flex mt-3">
                 <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
                 <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
                 <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a>
                 <a href="#" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
-              </div>
+              </div> -->
             </div>
           </div><!-- End footer info column-->
 
@@ -365,9 +365,15 @@
               <li><a href="#">Terms of service</a></li>
               <li><a href="#">Privacy policy</a></li>
             </ul>
-          </div><!-- End footer links column-->
+          </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Contact</h4>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
+          </div>
+
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><a href="#">Web Design</a></li>
@@ -376,9 +382,9 @@
               <li><a href="#">Marketing</a></li>
               <li><a href="#">Graphic Design</a></li>
             </ul>
-          </div><!-- End footer links column-->
+          </div>End footer links column -->
 
-          <div class="col-lg-2 col-md-3 footer-links">
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
             <h4>Hic solutasetp</h4>
             <ul>
               <li><a href="#">Molestiae accusamus iure</a></li>
@@ -387,9 +393,9 @@
               <li><a href="#">Dilecta</a></li>
               <li><a href="#">Sit quas consectetur</a></li>
             </ul>
-          </div><!-- End footer links column-->
+          </div>End footer links column -->
 
-          <div class="col-lg-2 col-md-3 footer-links">
+          <!-- <div class="col-lg-2 col-md-3 footer-links">
             <h4>Nobis illum</h4>
             <ul>
               <li><a href="#">Ipsam</a></li>
@@ -398,7 +404,7 @@
               <li><a href="#">Trodelas</a></li>
               <li><a href="#">Flexo</a></li>
             </ul>
-          </div><!-- End footer links column-->
+          </div>End footer links column -->
 
         </div>
       </div>
@@ -407,14 +413,14 @@
     <div class="footer-legal text-center position-relative">
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>UpConstruction</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>MIF EXHIBITION</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by MIF POLIJE
         </div>
       </div>
     </div>
